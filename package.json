@@ -1,0 +1,41 @@
+{
+  "name": "museria-global",
+  "version": "0.0.1",
+  "description": "Global decentralized music storage",
+  "main": "./index.js",
+  "author": {
+    "name": "Alexander Balasyan",
+    "email": "mywebstreet@gmail.com"
+  },
+  "homepage": "https://github.com/ortexx/museria-global",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "music",
+    "song",
+    "audio",
+    "meta",
+    "data",
+    "storage",
+    "network",
+    "distributed",
+    "decentralized",
+    "decentralization",
+    "distribution",
+    "information",
+    "global"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "optimist": "^0.6.1",
+    "museria": "^0.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ortexx/museria-global"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
