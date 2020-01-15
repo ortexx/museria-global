@@ -29,7 +29,7 @@
   "license": "MIT",
   "dependencies": {
     "optimist": "^0.6.1",
-    "museria": "^0.0.9"
+    "museria": "^0.0.10"
   },
   "repository": {
     "type": "git",
