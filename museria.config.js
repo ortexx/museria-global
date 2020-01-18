@@ -6,7 +6,7 @@ module.exports = {
   publicPort: argv.publicPort,
   hostname: argv.hostname,  
   logger: {
-    level: argv.loggerLevel || 'warn'
+    level: argv.loggerLevel || 'error'
   },
   collections: {
     music: {
