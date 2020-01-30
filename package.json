@@ -28,8 +28,9 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "museria": "^0.0.25",
     "optimist": "^0.6.1",
-    "museria": "^0.0.24"
+    "spreadable": "^0.0.27"
   },
   "repository": {
     "type": "git",
