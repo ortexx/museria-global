@@ -3,6 +3,15 @@
 This is a network configuration of the global decentralized storage for storing and receiving all the music we have on the planet. 
 It is based on [museria](https://github.com/ortexx/museria/).
 
+* [Running on machine](#Running-on-machine)
+* [Running in docker](#Running-in-docker)
+* [What is the idea](#What-is-the-idea)
+* [How it works](#How-it-works)
+* [How to get involved in this](#How-to-get-involved-in-this)
+* [Notes](#Notes)
+
+## Running on machine
+
 ```bash
 git clone https://github.com/ortexx/museria-global.git
 ```
@@ -10,6 +19,14 @@ git clone https://github.com/ortexx/museria-global.git
 ```bash
 npm i && npm start
 ```
+
+## Running in docker
+
+```bash
+cp docker-compose.example.yml docker-compose.yml
+docker-compose up
+```
+
 
 ## What is the idea
 

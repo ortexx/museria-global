@@ -1,0 +1,26 @@
+version: 2
+jobs:
+  build_push:
+    environment:
+      IMAGE_NAME: detrous/museria
+    docker:
+      - image: docker:17.05.0-ce-git
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: Build image
+          command: |
+            docker build -t $IMAGE_NAME:$CIRCLE_SHA1 .
+            docker tag $IMAGE_NAME:$CIRCLE_SHA1 $IMAGE_NAME:latest
+      - run:
+          name: Push image
+          command: |
+            docker login -u $DOCKER_HUB_LOGIN -p "$DOCKER_HUB_PASSWORD"
+            docker push $IMAGE_NAME:$CIRCLE_SHA1
+            docker push $IMAGE_NAME:latest
+workflows:
+  version: 2
+  build_push_master:
+    jobs:
+      - build_push
