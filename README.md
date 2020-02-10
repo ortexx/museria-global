@@ -34,4 +34,3 @@ The more people participating, the more music is on the network and more often t
 
 ## Notes
 We do not encourage you to violate the copyrights of music creators and sellers. The presented mechanisms make it possible to save music files in a decentralized way. The authors of these libraries and node holders are not responsible for which songs will be added to the network by people. Also, the algorithm does not allow you to know in advance which song will get to which specific node. Perhaps no one is going to break the laws and we will only collect music that can be distributed for free.
-
