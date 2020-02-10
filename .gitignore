@@ -1,5 +1,7 @@
 /node_modules
 /museria
+/museria-lib
+docker-compose.yml
 
 *.log
 *.bat
