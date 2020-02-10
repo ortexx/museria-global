@@ -19,6 +19,8 @@ npm i && npm start
 docker-compose up
 ```
 
+You can also pass environment variables before the command.
+
 ## What is the idea
 
 There is not a single place on the planet where people can get any song fast, without troubles and for free. There are many projects that have not been implemented because of this. We believe that music creators can receive money for their work in a different way than to make a commercial product out of it and limit access to it. How exactly, we are going to propose in another project, later. In the meantime, let's collect the music in one place and give everyone access to it!
