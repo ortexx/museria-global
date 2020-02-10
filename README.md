@@ -3,13 +3,6 @@
 This is a network configuration of the global decentralized storage for storing and receiving all the music we have on the planet. 
 It is based on [museria](https://github.com/ortexx/museria/).
 
-* [Running on machine](#Running-on-machine)
-* [Running in docker](#Running-in-docker)
-* [What is the idea](#What-is-the-idea)
-* [How it works](#How-it-works)
-* [How to get involved in this](#How-to-get-involved-in-this)
-* [Notes](#Notes)
-
 ## Running on machine
 
 ```bash
@@ -23,10 +16,8 @@ npm i && npm start
 ## Running in docker
 
 ```bash
-cp docker-compose.example.yml docker-compose.yml
 docker-compose up
 ```
-
 
 ## What is the idea
 
@@ -36,7 +27,7 @@ There is not a single place on the planet where people can get any song fast, wi
 
 At the very beginning, please check out [the museria library](https://github.com/ortexx/museria/).
 So, anyone can start their own node and share some place for music uploading. 
-The first node address is __storage.museria.com:80__. It is already a default option for __initialNetworkAddress__. But you can use another entry point if it is necessary. Look at the configuration file __museria.config.js__. There are all parameters you may configure by passing arguments. Don't change anything else.
+The first node address is __storage.museria.com:80__. It is already a default option for __initialNetworkAddress__. But you can use another entry point if it is necessary. Look at the configuration file __museria.config.js__. There are all parameters you may configure by passing arguments or environment variables. Don't change anything else.
 
 ## How to get involved in this
 
