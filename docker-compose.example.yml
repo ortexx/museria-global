@@ -1,0 +1,9 @@
+version: "3"
+services:
+  museria:
+    image: detrous/museria
+    restart: on-failure
+    ports:
+      - 0.0.0.0:2079:2079
+    volumes:
+      - ./museria-lib:/usr/src/app/museria
