@@ -29,7 +29,7 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "museria": "^0.1.9",
+    "museria": "^0.1.10",
     "optimist": "^0.6.1",
     "spreadable": "^0.1.5"
   },
