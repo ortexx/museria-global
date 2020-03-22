@@ -1,4 +1,4 @@
-# [Museria global storage](https://github.com/ortexx/museria-global/) [alpha]
+# [Museria global storage](https://github.com/ortexx/museria-global/) [alpha] [![alt text](https://img.shields.io/badge/Community-Chat-blueChat?style=flat-square&amp;logo=telegram)](https://t.me/museria)
 
 This is a network configuration of the global decentralized storage for storing and receiving all the music we have on the planet. 
 It is based on [museria](https://github.com/ortexx/museria/).
@@ -44,3 +44,11 @@ The more people participating, the more music is on the network and more often t
 
 ## Notes
 We do not encourage you to violate the copyrights of music creators and sellers. The presented mechanisms make it possible to save music files in a decentralized way. The authors of these libraries and node holders are not responsible for which songs will be added to the network by people. Also, the algorithm does not allow you to know in advance which song will get to which specific node. Perhaps no one is going to break the laws and we will only collect music that can be distributed for free.
+
+## Donations
+The main idea of the project promotion is to attract people who are ready to run nodes and expand the network themselves. But it would be great to have some ground in any case. 10-20 servers with 200-1000 gigabytes of disk space could keep the circulation of more than a million songs. Therefore, if you are interested, but do not want to engage in the deployment of nodes yourself, then you can help financially.
+
+* BTC: __38dyvCmUadqS2HVFEuDBVC3k1a7h6J5gqU__
+* ETH: __0x4e5Ef1b362271523f5c6eDe7a54BDcA9750D81E8__
+
+
