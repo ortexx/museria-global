@@ -1,4 +1,4 @@
-const argv = require('optimist').argv;
+const argv = require('yargs').argv;
 const dotenv = require('dotenv');
 const path = require('path');
 dotenv.config({ path: path.join(__dirname, '.env') });
