@@ -51,7 +51,7 @@ We do not encourage you to violate the copyrights of music creators and sellers.
 __solution__: Just go to http://storage.museria.com. It is the site interface of the root node.
 
 1. __issue__: I can't open the node site interface in my browser. It looks like there is no page with the specifed url.  
-__solution__: The network use __http__ protocol, not __https__. Some browsers forces redirects from http to https. Find out how to disable this behavior in your exact browser or just use another one.
+__solution__: The network uses __http__ protocol, not __https__. Some browsers force redirects from http to https. Find out how to disable this behavior in your exact browser or just use another one.
 
 1. __issue__: I can't run my own node. There is some error at the start.  
 __solution__: The most likely reason is that your server is closed to external requests. If it is something else and you can't figure it out, just create an issue.
