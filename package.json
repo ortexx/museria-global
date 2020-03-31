@@ -29,8 +29,8 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "museria": "^0.1.13",
-    "spreadable": "^0.1.7",
+    "museria": "^0.1.14",
+    "spreadable": "^0.1.8",
     "yargs": "^15.3.1"
   },
   "repository": {
