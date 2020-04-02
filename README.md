@@ -24,7 +24,7 @@ You can also pass environment variables before the command.
 ## What are the requirements
 You must have [node-gyp](https://github.com/nodejs/node-gyp) to install dependencies.
 
-If you run the node in a cointainer (virtual machine), then be sure that client ip addressess are forwarding to the node server.
+If you run the node in a cointainer (virtual machine), then be sure that client ip addresses are forwarding to the node server.
 Some virtualization tools don't do it, by default. You have to set it up if possible or just use a proxy server in front of this with filling **x-forwarded-for** header.
 Let's say we use **2079** port for public access and **2078** to link it with the virtual machine. All the process would be like that:
 
