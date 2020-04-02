@@ -28,7 +28,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "museria": "^0.1.14",
+    "museria": "^0.1.15",
     "spreadable": "^0.1.8"
   },
   "devDependencies": {
