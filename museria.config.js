@@ -27,5 +27,6 @@ module.exports = {
     path: argv.storagePath || process.env.MUSERIA_STORAGE_PATH,
     dataSize: argv.storageDataSize || process.env.MUSERIA_STORAGE_DATA_SIZE,
     tempSize: argv.storageTempSize || process.env.MUSERIA_STORAGE_TEMP_SIZE
-  }
+  },
+  
 }
