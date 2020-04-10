@@ -22,15 +22,7 @@ docker-compose up
 You can also pass environment variables before the command.
 
 ## What are the requirements
-You must have [node-gyp](https://github.com/nodejs/node-gyp) to install dependencies.
-
-If you run the node in a cointainer (virtual machine), then be sure that client ip addresses are forwarding to the node server.
-Some virtualization tools don't do it, by default. You have to set it up if possible or just use a proxy server in front of this with filling **x-forwarded-for** header.
-Let's say we use **2079** port for public access and **2078** to link it with the virtual machine. All the process would be like that:
-
-`client -> proxy:2079 -> local machine:2078 -> virtual machine:2079`
-
-If you don't pass the real client ip address to the virtual machine, the node will ban all external servers due to vulnerabilities control system working.
+Look at the [museria requirements](https://github.com/ortexx/museria/#what-are-the-requirements).
 
 ## What is the idea
 There is not a single place on the planet where people can get any song fast, without troubles and for free. There are many projects that have not been implemented because of this. We believe that music creators can receive money for their work in a different way than to make a commercial product out of it and limit access to it. How exactly, we are going to propose in another project, later (automatized donations, to be short). In the meantime, let's collect the music in one place and give everyone access to it!
