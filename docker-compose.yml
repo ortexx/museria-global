@@ -2,8 +2,10 @@ version: "3"
 services:
   museria:
     container_name: museria
-    image: ortexx/museria 
+    image: ortexx/museria
     restart: on-failure
+    env_file:
+      ./.env
     environment:
       MUSERIA_HOSTNAME: $MUSERIA_HOSTNAME
       MUSERIA_PORT: $MUSERIA_PORT
@@ -13,8 +15,8 @@ services:
       MUSERIA_LOGGER_LEVEL: $MUSERIA_LOGGER_LEVEL
       MUSERIA_STORAGE_PATH: $MUSERIA_STORAGE_PATH
       MUSERIA_STORAGE_DATA_SIZE: $MUSERIA_STORAGE_DATA_SIZE
-      MUSERIA_STORAGE_TEMP_SIZE: $MUSERIA_STORAGE_TEMP_SIZE
+      MUSERIA_STORAGE_TEMP_SIZE: $MUSERIA_STORAGE_TEMP_SIZE 
     ports:
-      - 2079:2079
+      - $MUSERIA_DOCKER_PORT:$MUSERIA_PORT
     volumes:
       - ./museria:/usr/src/app/museria

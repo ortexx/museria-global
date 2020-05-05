@@ -9,7 +9,8 @@
   },
   "homepage": "https://github.com/ortexx/museria-global",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "local": "node index.js --hostname=localhost --initialNetworkAddress=localhost:2079 --port=2079"
   },
   "keywords": [
     "music",
@@ -28,8 +29,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "museria": "^0.1.20",
-    "spreadable": "^0.1.12"
+    "museria": "^0.1.22",
+    "spreadable": "^0.1.14"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
