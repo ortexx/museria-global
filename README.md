@@ -47,7 +47,7 @@ The more people participating, the more music is on the network and more often t
 We do not encourage you to violate the copyrights of music creators and sellers. The presented mechanisms make it possible to save music files in a decentralized way. The authors of these libraries and node holders are not responsible for which songs will be added to the network by people. Also, the algorithm does not allow you to know in advance which song will get to which specific node. Perhaps no one is going to break the laws and we will only collect music that can be distributed for free.
 
 ## Face mode
-If you don't want to provide the disk space you can run the node in face mode as **npm run face**. Start your server under a domain name, push it into the list in [./faces.json](https://github.com/ortexx/museria-global/faces.json) and create a pull request. This will allow other people to have more options to enter the network for better stability. Everyone can install this package via npm and require the faces list as **address** option in the client side for connecting.
+If you don't want to provide the disk space you can run the node in face mode as **npm run face**. Start your server under a domain name, push it into the list in [./faces.json](https://github.com/ortexx/museria-global/blob/master/faces.json) and create a pull request. This will allow other people to have more options to enter the network for better stability. Everyone can install this package via npm and require the faces list as **address** option in the client side for connecting.
 
 ## Common issues
 
