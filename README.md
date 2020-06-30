@@ -22,7 +22,7 @@ docker-compose up
 You can also pass environment variables before the command.
 
 ## What are the requirements
-Look at the [museria requirements](https://github.com/ortexx/museria/#what-are-the-requirements).
+Look at [the museria requirements](https://github.com/ortexx/museria/#what-are-the-requirements).
 
 ## What is the idea
 There is not a single place on the planet where people can get any song fast, without troubles and for free. There are many projects that have not been implemented because of this. We believe that music creators can receive money for their work in a different way than to make a commercial product out of it and limit access to it. How exactly, we are going to propose in another project, later (automatized donations, to be short). In the meantime, let's collect the music in one place and give everyone access to it!
@@ -38,7 +38,7 @@ The first node address is __storage.museria.com:80__. It is already a default op
 For comfortable work it is enough to have only __10GB__ of free space. You can run it on any server that is open to external requests.
 
 ### 2. Add music to the storage
-You can do this either using the [library](https://github.com/ortexx/museria/) or simply go to the website of any node of the global network (for example, [storage.museria.com](http://storage.museria.com)) and upload the file through the convenient interface.
+You can do this either using [the library](https://github.com/ortexx/museria/) or simply go to the website of any node of the global network (for example, [storage.museria.com](http://storage.museria.com)) and upload the file through the convenient interface.
 
 ### 3. Tell your friends about the project
 The more people participating, the more music is on the network and more often their updating.
