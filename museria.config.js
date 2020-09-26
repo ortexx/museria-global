@@ -10,7 +10,7 @@ const loggerLevelFile = split[1] || loggerLevelConsole;
 
 module.exports = {
   face: argv.face || process.env.MUSERIA_FACE,
-  port: argv.port || 2079,
+  port: argv.port || process.env.MUSERIA_PORT,
   initialNetworkAddress: argv.initialNetworkAddress || process.env.MUSERIA_INITIAL_NETWORK_ADDRESS || faces,
   publicPort: argv.publicPort || process.env.MUSERIA_PUBLIC_PORT,
   hostname: argv.hostname || process.env.MUSERIA_HOSTNAME,

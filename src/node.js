@@ -8,7 +8,7 @@ module.exports = (Parent) => {
     static get LoggerTransport () { return LoggerAdapter }
 
     /**
-     * @see Node.prototype.fileAvailabilityTest
+     * @see Node.prototype.checkDocumentAvailability
      */
     async checkDocumentAvailability(info) {
       if(this.options.face && info.collection == 'music') {
