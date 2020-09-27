@@ -1,8 +1,8 @@
-FROM node:12-alpine3.9
+FROM node:14-slim
 
 WORKDIR /usr/src/app
 
-RUN apk add --no-cache python3 make g++
+RUN apt-get update && apt-get install -y python3 build-essential
 
 COPY . /usr/src/app
 
