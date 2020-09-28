@@ -1,6 +1,6 @@
 {
   "name": "museria-global",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "Global decentralized music storage",
   "main": "./src/index.js",
   "author": {
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "museria": "^0.1.32",
+    "museria": "^0.1.33",
     "spreadable": "^0.1.26"
   },
   "devDependencies": {
