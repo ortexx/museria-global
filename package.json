@@ -30,8 +30,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "museria": "~0.2.2",
-    "spreadable": "~0.2.3"
+    "museria": "~0.2.4",
+    "spreadable": "~0.2.4"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
