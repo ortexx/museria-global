@@ -1,4 +1,4 @@
-# [Museria global storage](https://github.com/ortexx/museria-global/) [alpha] [![alt text](https://img.shields.io/badge/Community-Chat-blueChat?style=flat-square&amp;logo=telegram)](https://t.me/museria)
+# [Museria global storage](https://github.com/ortexx/museria-global/)  [alpha] [![npm version](https://badge.fury.io/js/museria-global.svg)](https://badge.fury.io/js/spreadable) [![alt text](https://img.shields.io/badge/Community-Chat-blueChat?style=flat-square&amp;logo=telegram)](https://t.me/museria)
 
 This is a network configuration of the global decentralized storage for storing and receiving all the music we have on the planet. 
 It is based on [museria](https://github.com/ortexx/museria/).
