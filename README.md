@@ -41,7 +41,7 @@ If you don't want to provide the disk space you can run the node in face mode as
 For comfortable work it is enough to have only __10GB__ of free space. You can run it on any server that is open to external requests.
 
 ### 2. Add music to the storage
-You can do this either using [the library](https://github.com/ortexx/museria/) or simply go to the website of any node of the global network (for example, [storage.museria.com](http://storage.museria.com) and upload the file through the convenient interface.
+You can do this either using [the library](https://github.com/ortexx/museria/) or simply go to the website of any node of the global network (for example, [storage.museria.com](http://storage.museria.com)) and upload the file through the convenient interface.
 
 ### 3. Use it for yourself
 Find and store necessary music or create your own cool music projects like [that](https://github.com/ortexx/museria-player/).
