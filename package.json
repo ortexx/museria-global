@@ -1,6 +1,6 @@
 {
   "name": "museria-global",
-  "version": "0.2.25",
+  "version": "0.2.26",
   "description": "Global decentralized music storage",
   "main": "./src/index.js",
   "author": {

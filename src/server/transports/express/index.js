@@ -15,6 +15,13 @@ module.exports = (Parent) => {
     getApiMasterRoutes() {
       return super.getApiMasterRoutes().filter(r => r.name != 'removeSong');
     }
+
+    /**
+     * @see ServerExpressMuseria.prototype.getApiButlerRoutes
+     */
+    getApiButlerRoutes() {
+      return super.getApiButlerRoutes().filter(r => r.name != 'removeSong');
+    }
   
     /**
      * @see ServerExpressMuseria.prototype.getApiSlaveRoutes
