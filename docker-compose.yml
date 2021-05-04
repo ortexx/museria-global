@@ -20,4 +20,4 @@ services:
     ports:
       - $MUSERIA_DOCKER_PORT:$MUSERIA_PORT
     volumes:
-      - ./museria:/usr/src/app/museria
+      - $MUSERIA_STORAGE_PATH:/usr/src/app/museria
