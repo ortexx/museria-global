@@ -1,5 +1,6 @@
-const Client = require('museria/src/client')();
+import client from 'museria/src/client.js';
+const Client = client();
 
-module.exports = (Parent) => {
+export default (Parent) => {
   return class ClientMuseriaGlobal extends (Parent || Client) {}
 };

@@ -1,8 +1,12 @@
-const Node = require('museria/src/node')();
-const ServerExpressMuseriaGlobal = require('./server/transports/express')();
-const LoggerAdapter = require('spreadable/src/logger/transports/adapter')();
+import node from 'museria/src/node.js';
+import serverExpressMuseriaGlobal from './server/transports/express/index.js';
+import loggerAdapter from 'spreadable/src/logger/transports/adapter/index.js';
 
-module.exports = (Parent) => {  
+const Node = node();
+const ServerExpressMuseriaGlobal = serverExpressMuseriaGlobal();
+const LoggerAdapter = loggerAdapter();
+
+export default (Parent) => {  
   return class NodeMuseriaGlobal extends (Parent || Node) {
     static get ServerTransport () { return ServerExpressMuseriaGlobal }
     static get LoggerTransport () { return LoggerAdapter }

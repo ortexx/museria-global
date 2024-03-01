@@ -1,6 +1,8 @@
-const ServerExpressMuseria = require('museria/src/server/transports/express')();
+import serverExpressMuseria from 'museria/src/server/transports/express/index.js';
 
-module.exports = (Parent) => {
+const ServerExpressMuseria = serverExpressMuseria();
+
+export default (Parent) => {
   return class ServerExpressMuseriaGlobal extends (Parent || ServerExpressMuseria) {  
     /**
      * @see ServerExpressMuseria.prototype.getClientRoutes

@@ -1,6 +1,8 @@
-const Node = require('./src/node')();
-const config = require('./museria.config');
-const runner = require('./runner');
+import node from './src/node.js';
+import config from './museria.config.js';
+import runner from './runner.js';
+
+const Node = node();
 
 process.on('uncaughtException', (err) => { 
   console.error(err.stack);

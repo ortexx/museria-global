@@ -1,8 +1,9 @@
 {
   "name": "museria-global",
-  "version": "0.2.45",
+  "version": "0.3.1",
   "description": "Global decentralized music storage",
   "main": "./src/index.js",
+  "type": "module",
   "author": {
     "name": "Alexander Balasyan",
     "email": "mywebstreet@gmail.com"
@@ -30,8 +31,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "museria": "^0.2.49",
-    "spreadable": "^0.2.28"
+    "museria": "~0.3.2",
+    "spreadable": "~0.3.10"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
@@ -42,6 +43,6 @@
     "url": "https://github.com/ortexx/museria-global"
   },
   "engines": {
-    "node": ">=10.13.0"
+    "node": ">=20.0.0"
   }
 }

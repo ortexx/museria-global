@@ -1,1 +1,2 @@
-module.exports = Object.assign({}, require('museria/src/schema'));
+import schema from "museria/src/schema.js";
+export default Object.assign({}, schema);

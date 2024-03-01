@@ -1,4 +1,4 @@
-module.exports = async function (config, Node) {
+export default async function (config, Node) {
   try {
     const node = new Node(config);
     await node.init();
